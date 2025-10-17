@@ -1,37 +1,44 @@
 const Header = () => {
   return (
     <div className="hero_area">
-      <div
-        className="container-fluid py-2 bg-dark"
-      >
-        <div className="d-flex justify-content-between align-items-center px-4 col-md-12">
-          {/* Left Side - Contact with Image */}
+      <div className="container-fluid py-2 bg-dark">
+        <div
+          className="d-flex justify-content-between align-items-center px-3 px-md-4 flex-wrap"
+          style={{ rowGap: "4px" }}
+        >
+          {/* Left Side - Phone */}
           <div className="d-flex align-items-center gap-2">
-            {/* Replace src with your image */}
             <img
               src="./assets/phone-p.png"
-              alt="logo"
-              style={{ width: "35px", height: "35px", objectFit: "contain", marginRight: "5px" }}
+              alt="phone"
+              style={{
+                width: "25px",
+                height: "25px",
+                objectFit: "contain",
+              }}
             />
             <a
-              href="tel:91+ 8765432199"
-              className="text-decoration-none text-light"
+              href="tel:+919876543219"
+              className="text-decoration-none text-light small"
             >
-              91+ 9876543219
+              +91 9876543219
             </a>
           </div>
 
           {/* Right Side - Email */}
-          <div>
-
+          <div className="d-flex align-items-center gap-2">
             <img
               src="./assets/mail-m.png"
-              alt="logo"
-              style={{ width: "35px", height: "35px", objectFit: "contain", marginRight: "5px" }}
+              alt="mail"
+              style={{
+                width: "25px",
+                height: "25px",
+                objectFit: "contain",
+              }}
             />
             <a
               href="mailto:workindia@gmail.com"
-              className="text-decoration-none text-light"
+              className="text-decoration-none text-light small"
             >
               workindia@gmail.com
             </a>

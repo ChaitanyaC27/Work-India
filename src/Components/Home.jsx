@@ -25,7 +25,8 @@ const Home = () => {
               >
                 Get Professional Workers at Your Doorstep
               </h1>
-              <p className="text-dark mb-4 fs-5">
+              <p className="text-dark mb-4 fs-5"
+              style={{ textAlign: "justify" }}>
                 Find skilled Plumbers, Electricians, Painters, and more for all
                 your Household Needs.
               </p>

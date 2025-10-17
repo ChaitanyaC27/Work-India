@@ -17,14 +17,22 @@ const About = () => {
             <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
               <div className="detail-box pe-lg-5">
                 <h2 className="fw-bold mb-3 text-primary">About Us</h2>
-                <p className="text-dark fs-5 lh-lg">
+                <p
+                  className="text-dark fs-5 lh-lg"
+                  style={{ textAlign: "justify" }}
+                >
                   <strong>Work India</strong> is a professional service provider
                   dedicated to making your life easier by offering a complete
                   range of skilled workers right at your doorstep. From
-                  experienced Plumbers and Electricians to House Cleaners, Gardeners, Painters, Carpenters and Delivery Experts, we ensure reliable and
-                  timely services for your every household and professional need.
+                  experienced Plumbers and Electricians to House Cleaners,
+                  Gardeners, Painters, Carpenters and Delivery Experts, we
+                  ensure reliable and timely services for your every household
+                  and professional need.
                 </p>
-                <p className="text-secondary fs-6">
+                <p
+                  className="text-secondary fs-6"
+                  style={{ textAlign: "justify" }}
+                >
                   We value your time and trust, that’s why our workers are
                   verified, skilled, and dedicated to providing the best
                   experience possible.
@@ -69,7 +77,10 @@ const About = () => {
               <h2 className="fw-bold mb-3 text-primary">
                 WE PROVIDE ALL TYPES OF PROFESSIONAL WORKERS
               </h2>
-              <p className="text-dark fs-5 lh-lg">
+              <p
+                className="text-dark fs-5 lh-lg"
+                style={{ textAlign: "justify" }}
+              >
                 In India our team is dedicated to providing top-notch services
                 that meet all your needs. We believe in providing quality
                 workmanship and excellent customer service, ensuring that you
