@@ -7,13 +7,10 @@ import Home from "./Components/Home";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Register from "./Components/Register";
-import "./App.css"
-
-
+import "./App.css";
 
 function App() {
   return (
-
     <Router>
       <Header />
       <Navbar />
@@ -22,12 +19,12 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/book-service" element={<Contact />} />
-        <Route path="//join-as-worker" element={<Register />} />
-        <Route path="*" element={<Home/>}/>
+        <Route path="/join-as-worker" element={<Register />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </Router>
-  )
+  );
 }
 
 export default App;
