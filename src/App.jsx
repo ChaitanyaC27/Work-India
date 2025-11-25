@@ -23,6 +23,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/book-service" element={<Contact />} />
         <Route path="//join-as-worker" element={<Register />} />
+        <Route path="*" element={<Home/>}/>
       </Routes>
       <Footer />
     </Router>
